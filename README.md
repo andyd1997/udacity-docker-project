@@ -1,5 +1,8 @@
 [![CircleCI](https://circleci.com/gh/andyd1997/udacity-docker-project/tree/master.svg?style=svg)](https://circleci.com/gh/andyd1997/udacity-docker-project/tree/master)
 
+https://github.com/andyd1997/udacity-docker-project/tree/master
+https://app.circleci.com/pipelines/github/andyd1997/udacity-docker-project?branch=master&filter=all
+
 ## Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
