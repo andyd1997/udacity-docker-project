@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/andyd1997/udacity-docker-project/tree/master.svg?style=svg)](https://circleci.com/gh/andyd1997/udacity-docker-project/tree/master)
 
 ## Project Overview
 
