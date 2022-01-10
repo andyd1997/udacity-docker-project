@@ -42,6 +42,14 @@ source .devops/bin/activate
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
 
+###  explanation of the files in the repository
+1. Docker file - Docker builds images automatically by reading the instructions from a Dockerfile -- a text file that contains all commands, in order, needed to build a given image. A Dockerfile adheres to a specific format and set of instructions which you can find at Dockerfile reference.
+2. Run_Docker.sh - This file get Docker running locally
+3. ./make_prediction.sh - This shell script is responsible for sending some input data to your containerized application via the appropriate port. Each numerical value in here represents some feature that is important for determining the price of a house in Boston. The source code is responsible for passing that data through a trained, machine learning model, and giving back a predicted value for the house price.
+4. app.py - contains the application code
+5. upload_docker - This file allows you to - Push image to a docker repository
+6. run_kubernetes.sh - allows you to deploy into kubernetes - This script should create a pod with a name you specify and you may get an initial output that looks as follows, with a cluster and status:
+
 ### Kubernetes Steps
 
 * Setup and Configure Docker locally
