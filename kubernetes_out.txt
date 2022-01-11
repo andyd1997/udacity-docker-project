@@ -1,3 +1,14 @@
+[What is Displayed on Main Terminal]
+./run_kubernetes.sh
+Login Succeeded
+NAME              READY   STATUS    RESTARTS   AGE
+udacity-project   1/1     Running   0          66s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+
+
 $ kubectl logs udacity-project
  * Serving Flask app "app" (lazy loading)
  * Environment: production
